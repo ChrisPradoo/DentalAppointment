@@ -31,4 +31,4 @@ Alternatively, open the project in Visual Studio and press F5 to run.
 
 ## Screenshots
 
-![Create appointment form](docs/dentalAppointmentForm.png)
+![Create appointment form](docs/AppointmentFormFixedGrammer.png)

@@ -134,7 +134,7 @@
             ComformAppointmentButton.Name = "ComformAppointmentButton";
             ComformAppointmentButton.Size = new Size(233, 92);
             ComformAppointmentButton.TabIndex = 10;
-            ComformAppointmentButton.Text = "Conform Appointment";
+            ComformAppointmentButton.Text = "Confirm Appointment";
             ComformAppointmentButton.UseVisualStyleBackColor = true;
             // 
             // label6
