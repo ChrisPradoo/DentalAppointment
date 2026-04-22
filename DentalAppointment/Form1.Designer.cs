@@ -46,23 +46,28 @@
             // label1
             // 
             label1.AutoSize = true;
+            label1.BackColor = SystemColors.MenuText;
+            label1.ForeColor = SystemColors.Window;
             label1.Location = new Point(38, 43);
             label1.Name = "label1";
             label1.Size = new Size(61, 15);
             label1.TabIndex = 0;
             label1.Text = "Full Name";
+            label1.Click += label1_Click;
             // 
             // FullNameTextBox
             // 
             FullNameTextBox.Location = new Point(154, 43);
             FullNameTextBox.Name = "FullNameTextBox";
             FullNameTextBox.PlaceholderText = "LastName, FirstName";
-            FullNameTextBox.Size = new Size(273, 23);
+            FullNameTextBox.Size = new Size(252, 23);
             FullNameTextBox.TabIndex = 1;
             // 
             // label2
             // 
             label2.AutoSize = true;
+            label2.BackColor = SystemColors.MenuText;
+            label2.ForeColor = SystemColors.Menu;
             label2.Location = new Point(42, 100);
             label2.Name = "label2";
             label2.Size = new Size(88, 15);
@@ -73,7 +78,7 @@
             // 
             PhoneNumberTextBox.Location = new Point(154, 95);
             PhoneNumberTextBox.Name = "PhoneNumberTextBox";
-            PhoneNumberTextBox.Size = new Size(105, 23);
+            PhoneNumberTextBox.Size = new Size(252, 23);
             PhoneNumberTextBox.TabIndex = 3;
             // 
             // DoctorComboBox
@@ -82,12 +87,14 @@
             DoctorComboBox.FormattingEnabled = true;
             DoctorComboBox.Location = new Point(154, 147);
             DoctorComboBox.Name = "DoctorComboBox";
-            DoctorComboBox.Size = new Size(121, 23);
+            DoctorComboBox.Size = new Size(252, 23);
             DoctorComboBox.TabIndex = 4;
             // 
             // label3
             // 
             label3.AutoSize = true;
+            label3.BackColor = SystemColors.MenuText;
+            label3.ForeColor = SystemColors.Menu;
             label3.Location = new Point(42, 152);
             label3.Name = "label3";
             label3.Size = new Size(43, 15);
@@ -98,12 +105,14 @@
             // 
             AppointmentDateTimePicker.Location = new Point(154, 204);
             AppointmentDateTimePicker.Name = "AppointmentDateTimePicker";
-            AppointmentDateTimePicker.Size = new Size(200, 23);
+            AppointmentDateTimePicker.Size = new Size(252, 23);
             AppointmentDateTimePicker.TabIndex = 6;
             // 
             // label4
             // 
             label4.AutoSize = true;
+            label4.BackColor = SystemColors.MenuText;
+            label4.ForeColor = SystemColors.Menu;
             label4.Location = new Point(42, 207);
             label4.Name = "label4";
             label4.Size = new Size(98, 15);
@@ -113,6 +122,8 @@
             // label5
             // 
             label5.AutoSize = true;
+            label5.BackColor = SystemColors.MenuText;
+            label5.ForeColor = SystemColors.Menu;
             label5.Location = new Point(42, 253);
             label5.Name = "label5";
             label5.Size = new Size(88, 15);
@@ -125,21 +136,25 @@
             OfficeLocationComboBox.FormattingEnabled = true;
             OfficeLocationComboBox.Location = new Point(154, 253);
             OfficeLocationComboBox.Name = "OfficeLocationComboBox";
-            OfficeLocationComboBox.Size = new Size(121, 23);
+            OfficeLocationComboBox.Size = new Size(252, 23);
             OfficeLocationComboBox.TabIndex = 9;
             // 
             // ComformAppointmentButton
             // 
+            ComformAppointmentButton.BackColor = Color.Black;
+            ComformAppointmentButton.ForeColor = SystemColors.Menu;
             ComformAppointmentButton.Location = new Point(94, 408);
             ComformAppointmentButton.Name = "ComformAppointmentButton";
             ComformAppointmentButton.Size = new Size(233, 92);
             ComformAppointmentButton.TabIndex = 10;
             ComformAppointmentButton.Text = "Confirm Appointment";
-            ComformAppointmentButton.UseVisualStyleBackColor = true;
+            ComformAppointmentButton.UseVisualStyleBackColor = false;
             // 
             // label6
             // 
             label6.AutoSize = true;
+            label6.BackColor = SystemColors.MenuText;
+            label6.ForeColor = SystemColors.Menu;
             label6.Location = new Point(42, 299);
             label6.Name = "label6";
             label6.Size = new Size(90, 15);
@@ -158,6 +173,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.LightSlateGray;
             ClientSize = new Size(436, 525);
             Controls.Add(ReasonForVisitTextBox);
             Controls.Add(label6);
@@ -172,6 +188,7 @@
             Controls.Add(label2);
             Controls.Add(FullNameTextBox);
             Controls.Add(label1);
+            ForeColor = SystemColors.MenuHighlight;
             Name = "Form1";
             Text = "Schedule Doctor Appointment";
             ResumeLayout(false);
