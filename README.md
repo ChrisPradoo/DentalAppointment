@@ -31,10 +31,4 @@ Alternatively, open the project in Visual Studio and press F5 to run.
 
 ## Screenshots
 
-Place screenshots in `docs/screenshots/` and reference them here:
-
-- `docs/screenshots/screenshot-1.png` - Main appointments view
-- `docs/screenshots/screenshot-2.png` - Add appointment dialog
-
-![Screenshot placeholder](docs/screenshots/screenshot-1.png)
-![Create appointment form](C:\CPW155\DentalAppointment\docs\dentalAppointmentForm.png)
+![Create appointment form](docs/dentalAppointmentForm.png)
